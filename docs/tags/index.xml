@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Arsen Ismagulov | On Software Development</title>
-    <link>https://aismagulov.com/tags/</link>
+    <link>https://forkandpie.github.io/tags/</link>
     <description>Recent content in Tags on Arsen Ismagulov | On Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://aismagulov.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Oct 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game</title>
-      <link>https://aismagulov.com/tags/game/</link>
+      <link>https://forkandpie.github.io/tags/game/</link>
       <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://aismagulov.com/tags/game/</guid>
+      <guid>https://forkandpie.github.io/tags/game/</guid>
       <description></description>
     </item>
     
     <item>
       <title>New</title>
-      <link>https://aismagulov.com/tags/new/</link>
+      <link>https://forkandpie.github.io/tags/new/</link>
       <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://aismagulov.com/tags/new/</guid>
+      <guid>https://forkandpie.github.io/tags/new/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>https://aismagulov.com/tags/photos/</link>
+      <link>https://forkandpie.github.io/tags/photos/</link>
       <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://aismagulov.com/tags/photos/</guid>
+      <guid>https://forkandpie.github.io/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://aismagulov.com/tags/python/</link>
+      <link>https://forkandpie.github.io/tags/python/</link>
       <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://aismagulov.com/tags/python/</guid>
+      <guid>https://forkandpie.github.io/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React</title>
-      <link>https://aismagulov.com/tags/react/</link>
+      <link>https://forkandpie.github.io/tags/react/</link>
       <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
       
-      <guid>https://aismagulov.com/tags/react/</guid>
+      <guid>https://forkandpie.github.io/tags/react/</guid>
       <description></description>
     </item>
     
