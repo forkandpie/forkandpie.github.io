@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "nav.html" }}
+  <div class="container">
+    <p class="posts-title is-size-4">Recent posts</p>
+    <ul>
+      {{ range where .Site.RegularPages "Type" "blog" }}
+        <li>
+          <div class="post-card">
+            <a href="{{ .Permalink }}">
+              <p class="has-text-dark is-size-5">{{ .Title }}</p>
+              <p class="post-date has-text-grey is-size-7">{{ .PublishDate.Format "January 2, 2006" }}</p>
+              <p class="has-text-grey-dark">{{ .Description }}</p>
+            </a>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ partial "footer.html" }}
+</body>

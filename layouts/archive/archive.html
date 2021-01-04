@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "nav.html" }}
+  <div class="container archive">
+    <p class="archive-title is-size-4">Archive</p>
+    {{ range site.RegularPages.GroupByDate "2006" -}}
+       <div class="archive-year is-size-4">{{ .Key }}</div>
+      <ul>
+      {{ range .Pages -}}
+      <li>
+          <a class="archive-link" href="{{ .RelPermalink }}">
+            <span class="archive-time">{{ .Date.Format "Jan 02"}}</span>
+            {{ .Title }}
+          </a>
+      </li>
+      {{- end }}
+      </ul>
+    {{ end }}
+  </div>
+  
+  {{ partial "footer.html" }}
+</body>

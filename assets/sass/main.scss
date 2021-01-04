@@ -1,0 +1,78 @@
+$my-pink: #EA9679;
+$my-blue: #679595;
+$my-white: #fefefe;
+$my-light-gray: hsl(0, 0, 86%);
+$my-black: hsl(0, 0, 4%);
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body > footer {
+    margin-top: auto;
+}
+
+.footer {
+    padding: 1rem 1.5rem 1rem;
+    background-color: $my-pink;
+    color: $my-white;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.navbar, .navbar-item {
+    background-color: $my-blue;
+    color: $my-white;
+}
+
+#logo {
+    color: $my-white;
+}
+
+.posts-title {
+    padding: 10px;
+}
+
+.post-card {
+    padding: 10px;
+    margin: 5px;
+    min-width: 600px;
+
+    & .post-subtitle {
+        
+    }
+
+    & .post-date {
+        margin-bottom: 8px;
+    }
+}
+
+.post-card:hover {
+    background-color: rgba($my-blue, 0.4);
+}
+
+
+.archive {
+    padding: 10px;
+    min-width: 600px;
+    
+    & .archive-year {
+        margin-top: 12px;
+        font-weight: 800px;
+    }
+
+    & .archive-time {
+        color: $my-blue;
+        font-weight: 800;
+        margin-left: 16px;
+        margin-right: 5px;
+    }
+
+    & .archive-link {
+        color: $my-black;
+    }
+}

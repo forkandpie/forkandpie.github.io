@@ -1,0 +1,50 @@
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+body > footer {
+  margin-top: auto; }
+
+.footer {
+  padding: 1rem 1.5rem 1rem;
+  background-color: #EA9679;
+  color: #fefefe; }
+
+body {
+  background-color: #fafafa; }
+
+.navbar, .navbar-item {
+  background-color: #679595;
+  color: #fefefe; }
+
+#logo {
+  color: #fefefe; }
+
+.posts-title {
+  padding: 10px; }
+
+.post-card {
+  padding: 10px;
+  margin: 5px;
+  min-width: 600px; }
+  .post-card .post-date {
+    margin-bottom: 8px; }
+
+.post-card:hover {
+  background-color: rgba(103, 149, 149, 0.4); }
+
+.archive {
+  padding: 10px;
+  min-width: 600px; }
+  .archive .archive-year {
+    margin-top: 12px;
+    font-weight: 800px; }
+  .archive .archive-time {
+    color: #679595;
+    font-weight: 800;
+    margin-left: 16px;
+    margin-right: 5px; }
+  .archive .archive-link {
+    color: #0a0a0a; }

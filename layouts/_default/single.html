@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{{ partial "head.html" . }}
+<body>
+  {{ partial "nav.html" }}
+  
+  <div class="container">
+    <br/>
+    <p class="is-size-3">{{ .Title }}</p>
+    <p class="is-italic">{{ .Description }}</p>
+    <p>{{ .Date.Format "January 02, 2006" }}</p>
+    <br/>
+    {{ .Content }}
+  </div>
+  
+  {{ partial "footer.html" }}
+</body>
