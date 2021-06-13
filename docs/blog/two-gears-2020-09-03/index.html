@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma-rtl.min.css" />
+  <link rel="stylesheet" href="https://forkandpie.github.io/sass/main.css" />
+  <title>On Software Development</title>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class = "container">
+    <div class="navbar-brand">
+      <a class="navbar-item text-link" href="https://forkandpie.github.io/">
+        <div id="logo">On Software Development</div>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start"></div>
+      </div><div class="navbar-end">
+        <a class="navbar-item" href="/archive">
+          Archive
+        </a>
+  
+        <a class="navbar-item" href="/contact">
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+  
+  <div class="container content blogpost">
+    <img src="/images/twogears.jpg">
+    <br/>
+    <p>September 03, 2020</p>
+    <p class="is-size-3">Two gears of Software Development</p>
+    <p class="is-italic">Choosing between speed and quality</p>
+    <br/>
+    <h3 id="two-contradicting-goals-of-software-development">Two contradicting goals of Software Development</h3>
+<p>In the <a href="https://www.researchgate.net/publication/234820806_Crystal_clear_a_human-powered_methodology_for_small_teams">&ldquo;Crystal Clear&rdquo;</a> book, Alistair Cockburn describes software development as &ldquo;a series of economically-constrained cooperative games with restricted resources&rdquo;, where each game has two goals:</p>
+<ol>
+<li>Deliver the working software;</li>
+<li>Prepare for the next game.</li>
+</ol>
+<p>The first one is about delivering business value; the second one is technical tasks - maintaining and cleaning up. As the development time and the number of developers are limited, the goals are competing - allocating resources for one means withholding from another.</p>
+<p>Following this definition, I&rsquo;ve noticed that software projects usually go in one of two &ldquo;gears&rdquo;. Imagine a burndown chart, which ideally should look like a straight line. In real life, the velocity at first is slower than predicted (first gear), and then it goes up. By the end of the iteration, the speed of delivery is much higher than at the beginning (second gear).</p>
+<p><img src="/images/twogears1.png" alt="Development usually start slow, but then speeds up.">
+<em>Development usually start slow, but then speeds up.</em></p>
+<h3 id="first-gear-technical-improvements">First gear: technical improvements</h3>
+<p>The dev team on the first gear is typically more focused on technical improvements.</p>
+<p>As software developers, we understand that it is impossible to predict in which way a product will evolve. Every alive project will have new features that we didn&rsquo;t plan for. The models that code represents are always slightly outdated - the code was designed for the functionality we had in mind a while ago, not today. Without maintaining, the codebase it gets cluttered and full of cruft, the further development gets slower and slower. We have to clean up to keep up the speed.</p>
+<p>When we start a new iteration of the product, we can plan what technical tasks should be done for fast and quality delivery. This work allows us to move faster in the latter phase of the iteration.</p>
+<blockquote>
+<p><strong>Overdoing it</strong></p>
+<p>The curse of many pet projects is getting stuck in the first gear. When there are no deadlines - oh, it is so tempting to improve the codebase endlessly! Who doesn&rsquo;t like a nice clean code? The bad side is that business value is never delivered.</p>
+</blockquote>
+<p><img src="/images/twogears2.png" alt="Too much first gear vs. too much second gear.">
+<em>Too much first gear vs. too much second gear.</em></p>
+<h3 id="second-gear-business-feature-delivery">Second gear: business feature delivery</h3>
+<p>When the deadline gets closer, the team switches to the second gear.</p>
+<p>It is too late to work on technical debt. It might be even time to create some technical debt. Dirty hacks appear. Cutting corners worsens the codebase, but it helps to deliver features on time. The best you can do is to make notes, create technical tickets to handle in the next iteration.</p>
+<blockquote>
+<p><strong>Overdoing it</strong></p>
+<p>There was a project that &ldquo;started after it should have been delivered&rdquo;. A team of developers was thrown on it in a great rush, and they had to do it as fast as possible. It was not a project for several days or weeks; it was for several months. The first results were delivered quite quickly, but then the project started to slow down. It got slower and slower, as hacks and bugs were piling up without getting proper attention. Unfortunately, due to poor management, the team couldn&rsquo;t dedicate time for cleaning up. In the end, the project took much longer and was much more stressful than it could have been. Luckily, it didn&rsquo;t lead to lay-offs or bankruptcy, but the history knows cases when companies went down because of the terrible unmaintained code.</p>
+</blockquote>
+<h3 id="the-right-moment-to-switch">The right moment to switch</h3>
+<p>When the team knows their current gear, they can make faster and better decisions - when to research meticulously and when to cut corners.</p>
+<p>The question is: how do you find the right moment to switch gears? Could it be that some particular project doesn&rsquo;t need the gear-switching at all? Could it be that the second gear is the right way from the beginning? Could it be that the project needs to focus purely on the technical side for several sprints?</p>
+<p>The primary tool here is planning, both short-term and long-term. &ldquo;Gear-switching&rdquo; happens on the long-term scale as well: during a long project, the first sprints tend to under-deliver and go slower than planned in general. On the late stages of a project, when the requirements are better defined, and the code matches the business domain models, the team can develop features much faster.</p>
+<p>Planning is like a reality check: it shows your real velocity and progress. Making a gear-switching decision without planning is like walking in the dark while blindfolded. Based on the plan and the current state, the development team can define the right moment to speed up.</p>
+<p>By practicing planning and retrospectives, the team can learn to predict the gear-switching, making the burndown charts closer to a straight line, and thus building more trust and reliability within the company.</p>
+<p><img src="/images/twogears3.png" alt="Getting closer and closer to predictability.">
+<em>Getting closer and closer to predictability.</em></p>
+
+  </div>
+  
+  <footer id="custom-footer" class="footer">
+  Built with Hugo & Bulma
+</footer>
+</body>

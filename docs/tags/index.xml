@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Arsen Ismagulov | On Software Development</title>
+    <title>Tags on On Software Development</title>
     <link>https://forkandpie.github.io/tags/</link>
-    <description>Recent content in Tags on Arsen Ismagulov | On Software Development</description>
+    <description>Recent content in Tags on On Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Apr 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game</title>
-      <link>https://forkandpie.github.io/tags/game/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>team</title>
+      <link>https://forkandpie.github.io/tags/team/</link>
+      <pubDate>Sun, 25 Apr 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/tags/game/</guid>
+      <guid>https://forkandpie.github.io/tags/team/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>New</title>
-      <link>https://forkandpie.github.io/tags/new/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>management, team, processes, agile</title>
+      <link>https://forkandpie.github.io/tags/management-team-processes-agile/</link>
+      <pubDate>Fri, 09 Apr 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/tags/new/</guid>
+      <guid>https://forkandpie.github.io/tags/management-team-processes-agile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Photos</title>
-      <link>https://forkandpie.github.io/tags/photos/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>team, teamwork, people</title>
+      <link>https://forkandpie.github.io/tags/team-teamwork-people/</link>
+      <pubDate>Sun, 28 Mar 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/tags/photos/</guid>
+      <guid>https://forkandpie.github.io/tags/team-teamwork-people/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Python</title>
-      <link>https://forkandpie.github.io/tags/python/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>planning, management, agile</title>
+      <link>https://forkandpie.github.io/tags/planning-management-agile/</link>
+      <pubDate>Thu, 03 Sep 2020 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/tags/python/</guid>
+      <guid>https://forkandpie.github.io/tags/planning-management-agile/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>React</title>
-      <link>https://forkandpie.github.io/tags/react/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>phylosophy, technology</title>
+      <link>https://forkandpie.github.io/tags/phylosophy-technology/</link>
+      <pubDate>Tue, 14 Jul 2020 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/tags/react/</guid>
+      <guid>https://forkandpie.github.io/tags/phylosophy-technology/</guid>
       <description></description>
     </item>
     

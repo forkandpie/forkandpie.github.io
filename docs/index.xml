@@ -1,28 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Arsen Ismagulov | On Software Development</title>
+    <title>On Software Development</title>
     <link>https://forkandpie.github.io/</link>
-    <description>Recent content on Arsen Ismagulov | On Software Development</description>
+    <description>Recent content on On Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Oct 2020 10:07:47 +0600</lastBuildDate><atom:link href="https://forkandpie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Apr 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://forkandpie.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Another post</title>
-      <link>https://forkandpie.github.io/blog/post-2/</link>
-      <pubDate>Thu, 29 Oct 2020 10:07:47 +0600</pubDate>
+      <title>Team&#39;s external factors</title>
+      <link>https://forkandpie.github.io/blog/teams-external-factors-2021-04-25/</link>
+      <pubDate>Sun, 25 Apr 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/blog/post-2/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://forkandpie.github.io/blog/teams-external-factors-2021-04-25/</guid>
+      <description>I looked into my working experience in different teams, and I compared how I feel about them.</description>
     </item>
     
     <item>
-      <title>How To Use Checklists To Improve Your UX</title>
-      <link>https://forkandpie.github.io/blog/post-1/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>Optimize for decision making</title>
+      <link>https://forkandpie.github.io/blog/decision-making-2021-04-09/</link>
+      <pubDate>Fri, 09 Apr 2021 12:00:00 +0100</pubDate>
       
-      <guid>https://forkandpie.github.io/blog/post-1/</guid>
-      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
+      <guid>https://forkandpie.github.io/blog/decision-making-2021-04-09/</guid>
+      <description>When working in a team, my first concern is access to knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Why we work in teams</title>
+      <link>https://forkandpie.github.io/blog/why-we-work-in-teams-2021-03-28/</link>
+      <pubDate>Sun, 28 Mar 2021 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/why-we-work-in-teams-2021-03-28/</guid>
+      <description>Throughout my career, I worked in different team and environments; some were better; others were worse.</description>
+    </item>
+    
+    <item>
+      <title>A process is the opposite of personal interaction</title>
+      <link>https://forkandpie.github.io/blog/process-vs-personal-interaction-2020-09-26/</link>
+      <pubDate>Sat, 26 Sep 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/process-vs-personal-interaction-2020-09-26/</guid>
+      <description>Individuals and interactions over processes and tools We often refer to processes when talking about managing software development.</description>
+    </item>
+    
+    <item>
+      <title>Two gears of Software Development</title>
+      <link>https://forkandpie.github.io/blog/two-gears-2020-09-03/</link>
+      <pubDate>Thu, 03 Sep 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/two-gears-2020-09-03/</guid>
+      <description>Two contradicting goals of Software Development In the &amp;ldquo;Crystal Clear&amp;rdquo; book, Alistair Cockburn describes software development as &amp;ldquo;a series of economically-constrained cooperative games with restricted resources&amp;rdquo;, where each game has two goals:</description>
+    </item>
+    
+    <item>
+      <title>Sun Tzu&#39;s wisdom in Software Development</title>
+      <link>https://forkandpie.github.io/blog/sun-tzy-2020-07-14/</link>
+      <pubDate>Tue, 14 Jul 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/sun-tzy-2020-07-14/</guid>
+      <description>These are some thoughts that came to me after reading this summary of &amp;ldquo;Deciphering Sun Tzu: How to read The Art of War&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Manual Work, Knowledge Work and Emotional Work</title>
+      <link>https://forkandpie.github.io/blog/manual-knowledge-emotional-work-2020-01-01/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/manual-knowledge-emotional-work-2020-01-01/</guid>
+      <description>So this is a product of two readings I’m doing now — “Wardley Maps” book and research on knowledge work.</description>
+    </item>
+    
+    <item>
+      <title>“Could you tell me, what is OOP?”</title>
+      <link>https://forkandpie.github.io/blog/what-is-oop-2018-07-25/</link>
+      <pubDate>Wed, 25 Jul 2018 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/what-is-oop-2018-07-25/</guid>
+      <description>— So, what is OOP?
+— It’s a software development paradigm that includes three main principles: inheritance, encapsulation and polymorphism.</description>
+    </item>
+    
+    <item>
+      <title>Reactive programming, cellular communication and psychology</title>
+      <link>https://forkandpie.github.io/blog/reactive-programming-2017-11-08/</link>
+      <pubDate>Wed, 08 Nov 2017 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/reactive-programming-2017-11-08/</guid>
+      <description>Term Object-Oriented Programming was introduced by Alan Kay in the 60s, as he described his vision of designing complex software systems .</description>
     </item>
     
   </channel>

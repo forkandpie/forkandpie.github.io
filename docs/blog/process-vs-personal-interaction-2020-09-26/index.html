@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma-rtl.min.css" />
+  <link rel="stylesheet" href="https://forkandpie.github.io/sass/main.css" />
+  <title>On Software Development</title>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class = "container">
+    <div class="navbar-brand">
+      <a class="navbar-item text-link" href="https://forkandpie.github.io/">
+        <div id="logo">On Software Development</div>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start"></div>
+      </div><div class="navbar-end">
+        <a class="navbar-item" href="/archive">
+          Archive
+        </a>
+  
+        <a class="navbar-item" href="/contact">
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+  
+  <div class="container content blogpost">
+    <img src="/images/processesvs2.jpg">
+    <br/>
+    <p>September 26, 2020</p>
+    <p class="is-size-3">A process is the opposite of personal interaction</p>
+    <p class="is-italic"></p>
+    <br/>
+    <h3 id="individuals-and-interactions-over-processes-and-tools">Individuals and interactions over processes and tools</h3>
+<p>We often refer to processes when talking about managing software development. Setting up processes, improving processes, having the best processes.</p>
+<p>In one of the podcasts, Alistair Cockburn defines processes as &ldquo;mailboxes and checklists&rdquo;. &ldquo;Mailbox&rdquo; is a place where you can leave a message for another person to read later; &ldquo;checklist&rdquo; is an instruction on how to do something. In the same podcast, Alistair Cockburn says that &ldquo;processes are the opposite of personal interaction&rdquo;. Somehow I didn&rsquo;t realize that before, although even <a href="http://agilemanifesto.org/">Agile Manifesto</a> states that: &ldquo;value interactions over processes&rdquo;.</p>
+<p>Processes and individual interactions are two parts of a whole - communication. What&rsquo;s important here is &ldquo;value one over another&rdquo;, not &ldquo;replace one with another&rdquo;. Both elements are essential. I interpret this Agile development principle as &ldquo;start with personal interactions, then introduce processes when needed&rdquo;.</p>
+<p>Personal interaction:</p>
+<ul>
+<li>good for in-depth knowledge exchange over a short time;</li>
+<li>encourages cooperation, brings people together;</li>
+<li>consumes time and focus.</li>
+</ul>
+<p>Process:</p>
+<ul>
+<li>good for shallow knowledge exchange (notification, status update);</li>
+<li>can be improved with appropriate tools;</li>
+<li>creates boundaries between people.</li>
+</ul>
+<p>Here are a few examples of how processes and personal interactions balance each other in Agile development.</p>
+<h3 id="just-a-small-thing-interruptions">Just-A-Small-Thing interruptions</h3>
+<p><img src="/images/processesvs1.jpg" alt=""></p>
+<p><a href="https://www.commitstrip.com/en/2018/01/11/the-war-on-interruptions/">This CommitStrip</a> was published just a couple of years ago, so I assume many people still go through this.</p>
+<p><strong>Bad Personal interaction:</strong></p>
+<p>When someone comes to your desk and asks to &ldquo;do this small fix&rdquo; or &ldquo;do this tiny change&rdquo;, it would be wrong to simply reject. But these small requests tend to result in hours of unplanned work, stress and loss of motivation. Also, if you let them happen, they will come more and more. Deadlines are missed, plans are destroyed, no one wins.</p>
+<p><strong>Good Process:</strong></p>
+<p>The Mailbox in Scrum is the backlog. In our case, the Scrum master convinced everyone to send tickets to him. He also initiated meetings for backlog reviews and prioritizing. Our Sprint goals, priorities and dashboards were open to everyone. People stopped coming to developers with requests because the answer always was: &ldquo;Give it to our Scrum master, and we will handle it&rdquo;.</p>
+<h3 id="feature-discussion-in-emails">Feature discussion in emails</h3>
+<p><img src="/images/processesvs3.jpeg" alt=""></p>
+<p><strong>Bad process:</strong></p>
+<p>We started several feature developments based only on written documentation. Developers had questions, but there was no person to answer them. We only could send an email, leave a comment, or reassign a ticket. The answer could take days. We had to proceed without full understanding, and we implemented things wrongly. We wasted time and effort, and it was frustrating.</p>
+<p><strong>Good Personal Interaction:</strong></p>
+<p>We insisted on having kick-off meetings and demo meetings. At kick-off meetings with the product owner, we could ask questions and propose solutions. At demo meetings, we showed the current state, got feedback and updated requirements.
+We didn&rsquo;t schedule them, they were on demand, for 30 minutes at a developer&rsquo;s desk. We could have a focused discussion, and we also strengthened relationships.</p>
+<h3 id="meeting-that-could-have-been-an-email">Meeting that could have been an email</h3>
+<p><img src="/images/processesvs4.jpeg" alt=""></p>
+<p><strong>Bad Personal Interaction:</strong></p>
+<p>I was once at a one-hour long meeting for almost 40 developers of all levels. Even if there are ten people at a 1-hour meeting, each person potentially has 6 minutes to talk and 54 minutes to listen. It&rsquo;s not an effective interaction.</p>
+<p><strong>Good Process:</strong></p>
+<p>A Jira ticket. An email. Another option is to ask invitees if they want to participate in the discussion or they want to be notified about the results.</p>
+<h3 id="code-review-problems">Code review problems</h3>
+<p><img src="/images/processesvs5.jpg" alt=""></p>
+<p><strong>Bad Process:</strong></p>
+<p>Code reviews have their benefits, but there are also problems tied to them. They slow down the delivery. They are interrupting both for the author and the reviewer. Large developments are hard to review. Reviewer&rsquo;s comments can be insensitive, discouraging or even hurtful.</p>
+<p><strong>Personal interactions I do instead:</strong></p>
+<p>If I need to pay attention to psychological safety, I give feedback in personal conversation first. This way, I make sure that my teammate won&rsquo;t misinterpret the tone of my comments.
+If I am not familiar with the business logic, I ask the author to walk me through it. In a discussion, I can restore their picture of abstractions and better understand the code.
+Finally, the complete opposite to code review is pair programming - anything that is written gets immediately reviewed.</p>
+<h3 id="finding-balance">Finding balance</h3>
+<p>It is amazing how processes just balance out excessive personal interactions. It is a control knob, a tool in organizing work.</p>
+<p>If you want to bring people closer, to help them share deep expertise, turn it to personal interactions. Help people talk to each other by providing a place, time and opportunity; notice interactions and encourage the effort.</p>
+<p>If you want to create better-defined boundaries, to make something more transparent and observable; to reduce interruptions; turn it to processes. Invest in good tools; show people how to use them; track the tool usage and do iterative changes.</p>
+<p>Cover image is a frame from the movie &ldquo;This Is Spinal Tap&rdquo;.</p>
+
+  </div>
+  
+  <footer id="custom-footer" class="footer">
+  Built with Hugo & Bulma
+</footer>
+</body>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>phylosophy, technology on On Software Development</title>
+    <link>https://forkandpie.github.io/tags/phylosophy-technology/</link>
+    <description>Recent content in phylosophy, technology on On Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Jul 2020 12:00:00 +0100</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/phylosophy-technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sun Tzu&#39;s wisdom in Software Development</title>
+      <link>https://forkandpie.github.io/blog/sun-tzy-2020-07-14/</link>
+      <pubDate>Tue, 14 Jul 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/sun-tzy-2020-07-14/</guid>
+      <description>These are some thoughts that came to me after reading this summary of &amp;ldquo;Deciphering Sun Tzu: How to read The Art of War&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>“Could you tell me, what is OOP?”</title>
+      <link>https://forkandpie.github.io/blog/what-is-oop-2018-07-25/</link>
+      <pubDate>Wed, 25 Jul 2018 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/what-is-oop-2018-07-25/</guid>
+      <description>— So, what is OOP?
+— It’s a software development paradigm that includes three main principles: inheritance, encapsulation and polymorphism.</description>
+    </item>
+    
+    <item>
+      <title>Reactive programming, cellular communication and psychology</title>
+      <link>https://forkandpie.github.io/blog/reactive-programming-2017-11-08/</link>
+      <pubDate>Wed, 08 Nov 2017 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/reactive-programming-2017-11-08/</guid>
+      <description>Term Object-Oriented Programming was introduced by Alan Kay in the 60s, as he described his vision of designing complex software systems .</description>
+    </item>
+    
+  </channel>
+</rss>

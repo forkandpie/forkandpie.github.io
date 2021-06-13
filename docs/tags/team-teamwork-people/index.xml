@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>team, teamwork, people on On Software Development</title>
+    <link>https://forkandpie.github.io/tags/team-teamwork-people/</link>
+    <description>Recent content in team, teamwork, people on On Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Mar 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/team-teamwork-people/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why we work in teams</title>
+      <link>https://forkandpie.github.io/blog/why-we-work-in-teams-2021-03-28/</link>
+      <pubDate>Sun, 28 Mar 2021 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/why-we-work-in-teams-2021-03-28/</guid>
+      <description>Throughout my career, I worked in different team and environments; some were better; others were worse.</description>
+    </item>
+    
+  </channel>
+</rss>

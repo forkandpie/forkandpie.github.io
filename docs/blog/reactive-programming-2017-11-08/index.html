@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma-rtl.min.css" />
+  <link rel="stylesheet" href="https://forkandpie.github.io/sass/main.css" />
+  <title>On Software Development</title>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class = "container">
+    <div class="navbar-brand">
+      <a class="navbar-item text-link" href="https://forkandpie.github.io/">
+        <div id="logo">On Software Development</div>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-start"></div>
+      </div><div class="navbar-end">
+        <a class="navbar-item" href="/archive">
+          Archive
+        </a>
+  
+        <a class="navbar-item" href="/contact">
+          Contact
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+  
+  <div class="container content blogpost">
+    <img src="/images/reactive1.png">
+    <br/>
+    <p>November 08, 2017</p>
+    <p class="is-size-3">Reactive programming, cellular communication and psychology</p>
+    <p class="is-italic"></p>
+    <br/>
+    <p>Term Object-Oriented Programming was introduced by Alan Kay in the 60s, as he described his vision of designing complex software systems . The term and the idea were gladly accepted by the community, and the ideology spread.</p>
+<p>Now, it’s very understandable why the community liked the idea. As humans we tend to prefer concrete objects to abstract — it’s just easier for a brain to work with something familiar, easier to grasp. So we have objects — like items in the real world, and we can describe their properties and functions, we can put objects into objects, create objects, describe interfaces. It’s like a box of toys!</p>
+<p>But the original Alan Kay’s idea was quite different — he had a background in biology, so he came up with an analogy that was easy for him to understand, and that others missed.</p>
+<p>He was looking for a way to combine a lot of subsystems into bigger systems (“small computers into bigger computers”), keeping each of them independent or low-coupled. In that way, every element of the system is rewritable, replaceable and easier to maintain in general. So how do cells communicate with each other? They dispatch messages in form of molecules. When a cell changes its state and wants to notify the environment, it dispatches a molecule. That molecule floats down the stream, gets caught or attached to another molecule that can accept it, so latter can react. The important thing is that molecules don’t know about each other. They are just aware of their states, the first one knows how to dispatch a message, the second one knows how to listen and react.</p>
+<p>And that’s what we call reactive programming. The idea is to forbid one “computer” to tell others what to do. Each one should just tell about their state and whether it got changed. Also, they should be able to react to certain state changes of others. The initial idea behind the term “Object-Oriented Programming” was Reactive programming!</p>
+<p>But I want to go even further in search for analogies, and it really gets fascinating. There is a term in modern psychology — “I-messages”. I-messages is a method of giving feedback in a non-conflict way when you put an accent on your feelings instead of blaming others. For example, “I feel neglected without your feedback” instead of “You never give feedback”. I-messages considered a useful method in conflict resolution, sharing criticism and even for self-improvement.</p>
+<p>How cool is that? It’s basically reactive programming principle in daily communication! When there are these great analogies between software development, cellular communication and psychology — it just blows my mind. We should talk to each other more in a reactive way!</p>
+<p>Software development is a lot about people communication. Even the code itself — it’s a message from one person to another person, we mostly write it for other team members. One of the most important properties of a “clean code” is readability. We talk with code. So who knows, maybe writing in a reactive way we not only improve our development skills but also become better persons?</p>
+<h4 id="awesome-links">Awesome Links</h4>
+<ul>
+<li>Greg Young “The art of destroying software” — <a href="https://vimeo.com/108441214">https://vimeo.com/108441214</a></li>
+<li>Dr. Alan Kay on the Meaning of “Object-Oriented Programming” — <a href="http://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en">http://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en</a></li>
+<li>Alan Kay On Messaging — <a href="http://wiki.c2.com/?AlanKayOnMessaging">http://wiki.c2.com/?AlanKayOnMessaging</a></li>
+<li>Cellular communication — <a href="https://en.wikipedia.org/wiki/Cellular_communication_(biology)#Three_stages_of_cell_communication">https://en.wikipedia.org/wiki/Cellular_communication_(biology)#Three_stages_of_cell_communication</a></li>
+<li>I-messages — <a href="https://en.wikipedia.org/wiki/I-message">https://en.wikipedia.org/wiki/I-message</a></li>
+<li>Microservice Development Mentality — <a href="https://medium.com/@lee.sylvester/microservice-development-mentality-7c3661fdff2c">https://medium.com/@lee.sylvester/microservice-development-mentality-7c3661fdff2c</a></li>
+</ul>
+
+  </div>
+  
+  <footer id="custom-footer" class="footer">
+  Built with Hugo & Bulma
+</footer>
+</body>

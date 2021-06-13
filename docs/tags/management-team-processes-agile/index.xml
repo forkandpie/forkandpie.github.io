@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management, team, processes, agile on On Software Development</title>
+    <link>https://forkandpie.github.io/tags/management-team-processes-agile/</link>
+    <description>Recent content in management, team, processes, agile on On Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Apr 2021 12:00:00 +0100</lastBuildDate><atom:link href="https://forkandpie.github.io/tags/management-team-processes-agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize for decision making</title>
+      <link>https://forkandpie.github.io/blog/decision-making-2021-04-09/</link>
+      <pubDate>Fri, 09 Apr 2021 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/decision-making-2021-04-09/</guid>
+      <description>When working in a team, my first concern is access to knowledge.</description>
+    </item>
+    
+    <item>
+      <title>A process is the opposite of personal interaction</title>
+      <link>https://forkandpie.github.io/blog/process-vs-personal-interaction-2020-09-26/</link>
+      <pubDate>Sat, 26 Sep 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/process-vs-personal-interaction-2020-09-26/</guid>
+      <description>Individuals and interactions over processes and tools We often refer to processes when talking about managing software development.</description>
+    </item>
+    
+    <item>
+      <title>Manual Work, Knowledge Work and Emotional Work</title>
+      <link>https://forkandpie.github.io/blog/manual-knowledge-emotional-work-2020-01-01/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0100</pubDate>
+      
+      <guid>https://forkandpie.github.io/blog/manual-knowledge-emotional-work-2020-01-01/</guid>
+      <description>So this is a product of two readings I’m doing now — “Wardley Maps” book and research on knowledge work.</description>
+    </item>
+    
+  </channel>
+</rss>
