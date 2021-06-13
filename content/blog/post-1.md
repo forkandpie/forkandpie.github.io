@@ -1,167 +1,36 @@
 ---
-title: "How To Use"
-date: 2019-10-29T10:07:47+06:00
-draft: false
-
-# post thumb
-image: "images/featured-post/post-1.jpg"
+title: "How code falls behind the product"
+date: 2021-02-01T10:07:47+06:00
+draft: true
+image: "/images/ufo-3105954_640.jpg"
 
 # meta description
 description: "this is meta description"
-
 # taxonomies
-categories:
-  - "Android And Gaming"
 tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
   - "New"
 
 # post type
 type: "blog"
 ---
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+### TL;DR
+- Code is always behind the product;
+- The more product model differs from code model, the more the delay;
+- One way to deal with it is to design for flexibility;
+- Second way is Ubiquitous Language that unites product and code models.
 
-<hr>
+I read a blogpost from a product manager's perspective on why software projects are delayed. Among other reasons, he mentioned "weak architecture" - basically, "bad developers" create "weak architecture" which is fragile and requires a lot of time to maintain and modify. On the other hand, if you ask developers why projects are delayed, they will tell you that "bad managers" create "weak specifications", insufficient or changing at the late moment.
 
-##### Emphasis
+### Why so slow
+Here is how I see the situation, from the outside. The idea of the product drives the project; code implements the idea. The first reason for code being behind is that today we implement the requirements of tomorrow. The code is eventually consistent with the product description. 
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+The second reason is that the code has to deal with hardware. There are network latency, disk latency, memory and storage limitations. A simple idea ("users can update their Twitter feed") leads to heavy implications on the development side. Changing the direction of the code will always be slower than changing the idea.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+### A rocket following a flying saucer
 
-Combined emphasis with **asterisks and _underscores_**.
+To cope with the slowness developers are trying to do prepare the ground work. With every software design decision developers make some changes easier and other changes harder. Ii is like a rocket getting a propelling momentum - it moves forward faster, but it is hard to turn around.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+In such situations, the leading Agile development solution is to design for flexibility. You make your rocket go slower, but it has turning engines all over it. Then you can quickly change the direction and be agile.
 
-<hr>
-
-##### Link
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-<hr>
-
-##### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-##### List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-##### Unordered List
-
-* List item
-* List item
-* List item
-* List item
-* List item
-
-<hr>
-
-##### Code and Syntax Highlighting
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-<hr>
-
-##### Blockquote
-
-> This is a blockquote example.
-
-<hr>
-
-##### Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-
-<hr>
-
-##### Tables
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-<hr>
-
-##### Image
-
-![image](../../images/post/post-1.jpg)
-
-<hr>
-
-##### Youtube video
-
-{{< youtube C0DPdy98e4c >}}
+Another useful thing is the Ubiquitous Language described in the DDD book. Ubiquitous Language is a common language shared between developers and product managers. Using the same terms and the same mental models, both parties form a common understanding of the system and its needs. It makes steering a bit more predictable, and it shifts the focus from fighting each other to fighting the situation together. Shortly speaking, it is all about having a dialog, a two-way conversation, instead of a one-way specification-to-implementation flow.

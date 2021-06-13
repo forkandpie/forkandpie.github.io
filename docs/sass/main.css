@@ -33,7 +33,9 @@ body {
     margin-bottom: 8px; }
 
 .post-card:hover {
-  background-color: rgba(103, 149, 149, 0.4); }
+  border-left: 10px solid rgba(103, 149, 149, 0.4);
+  margin-left: -5px;
+}
 
 .archive {
   padding: 10px;

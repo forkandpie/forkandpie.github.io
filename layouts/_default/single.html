@@ -3,11 +3,12 @@
 <body>
   {{ partial "nav.html" }}
   
-  <div class="container">
+  <div class="container content blogpost">
+    {{ with .Params.Image }}<img src="{{ . }}">{{ end }}
     <br/>
+    <p>{{ .Date.Format "January 02, 2006" }}</p>
     <p class="is-size-3">{{ .Title }}</p>
     <p class="is-italic">{{ .Description }}</p>
-    <p>{{ .Date.Format "January 02, 2006" }}</p>
     <br/>
     {{ .Content }}
   </div>

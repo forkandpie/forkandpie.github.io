@@ -9,9 +9,10 @@
         <li>
           <div class="post-card">
             <a href="{{ .Permalink }}">
-              <p class="has-text-dark is-size-5">{{ .Title }}</p>
               <p class="post-date has-text-grey is-size-7">{{ .PublishDate.Format "January 2, 2006" }}</p>
-              <p class="has-text-grey-dark">{{ .Description }}</p>
+              <p class="has-text-dark is-size-5">{{ .Title }}</p>
+              
+              <p class="has-text-grey-dark is-size-7">{{ .Description }}</p>
             </a>
           </div>
         </li>

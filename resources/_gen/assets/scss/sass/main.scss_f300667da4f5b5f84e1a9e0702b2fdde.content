@@ -48,3 +48,7 @@ body {
     margin-right: 5px; }
   .archive .archive-link {
     color: #0a0a0a; }
+
+.blogpost {
+  width: 600px;
+  font-size: 1em; }

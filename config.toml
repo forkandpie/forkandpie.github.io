@@ -1,6 +1,6 @@
 baseURL = "https://forkandpie.github.io/"
 languageCode = "en-us"
-title = "Arsen Ismagulov | On Software Development"
+title = "On Software Development"
 summaryLength = "10"
 paginate = 6
 publishDir = "docs"

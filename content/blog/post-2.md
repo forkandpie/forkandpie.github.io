@@ -1,7 +1,7 @@
 ---
 title: "Another post"
 date: 2020-10-29T10:07:47+06:00
-draft: false
+draft: true
 
 # post thumb
 image: "images/featured-post/post-1.jpg"
